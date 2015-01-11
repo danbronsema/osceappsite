@@ -1,0 +1,12 @@
+# Site settings
+title: osceApp - free and open source app for medical student
+email: danbronsema@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  A free and open source app to help medical students practice for OSCE examinations. With easy checklists, countdown timers, and notes on examination procedures - it's an invaluable addition for all medical students.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.osceapp.com" # the base hostname & protocol for your site
+twitter_username: danbronsema
+github_username:  danbronsema
+
+# Build settings
+markdown: kramdown
