@@ -1,5 +1,4 @@
-<img src='https://github.com/danbronsema/osceappsite/blob/master/assets/img/icon-app.png'> width='200' height='200'>
-
+![](https://github.com/danbronsema/osceappsite/blob/master/assets/img/icon-app.png =100x20)
 # osceappsite
 This is the site for osceApp.com
 
