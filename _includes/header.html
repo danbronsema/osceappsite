@@ -15,11 +15,11 @@
         </div>
         
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li class='active'><a href="#">osceApp</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/about">About</a></li>            
-            <li><a href="/developers">Developers</a></li>
+          <ul class="nav navbar-nav">
+            <li {% if page.active == 'index' %}class='active'{% endif %}><a href="/">osceApp</a></li>
+            <li {% if page.active == 'blog' %}class='active'{% endif %}><a href="/blog">Blog</a></li>
+            <li {% if page.active == 'about' %}class='active'{% endif %}><a href="/about">About</a></li>            
+            <li {% if page.active == 'developers' %}class='active'{% endif %}><a href="/developers">Developers</a></li>
           </ul>
         </div><!--/.navbar-collapse -->
       </div>

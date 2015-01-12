@@ -11,6 +11,9 @@ a {
   color:#111111;
   text-decoration: underline;
 }
+a:hover, a:focus {
+  color:$brand;
+}
 .jumbotron {
 	position: relative;
 }
@@ -20,7 +23,7 @@ a {
 	right:0;
 }
 .hero-image img {
-  width:570px;
+  width:530px;
 }
 .jumbotron h1 {
 	font-weight: 100;
@@ -29,8 +32,11 @@ a {
 .jumbotron {
 	background-color: $background-color;
 	color: $white;
-	padding: 20px 0 70px 0;
+	padding: 0 0 20px 0;
   margin-bottom: 0;
+}
+.home-jumbo {
+  padding: 20px 0 40px 0;
 }
 .jumbotron p {
 	font-size: 19px;
@@ -46,6 +52,9 @@ a {
 	border:none;
 	padding: 20px 0;
 	margin-bottom: 0;
+}
+.navbar .container {
+  padding:0;
 }
 #navbar .active a {
   background: none;
@@ -89,23 +98,80 @@ h2 {
   padding-top: 40px;
   padding-bottom: 30px;
 }
-// Carousel
 
-.carousel-fade .carousel-inner .item {
-  opacity: 0;
-  -webkit-transition: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -ms-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  transition: opacity 0.2s;
+// Page
+
+.page {
+  background:#E0E0E0;
 }
-.carousel-fade .carousel-inner .active {
-  opacity: 1;
-     -webkit-transition: opacity 0.2s;
-    -moz-transition: opacity 0.2s;
-    -ms-transition: opacity 0.2s;
-    -o-transition: opacity 0.2s;
-    transition: opacity 0.2s;
+
+
+.btn {
+  text-decoration: none;
+}
+
+//////////////////////
+// Blog
+//////////////////////
+
+.blog-posts a {
+    text-decoration: none;
+}
+.post-link:hover {
+  color:$brand;
+}
+.post-meta {
+  font-size: 13px;
+}
+.btn:hover, .btn:active {
+  color:$white;
+  border-color:$brand;
+  background:$brand;
+}
+.sidebar p {
+  font-size: 14px;
+}
+.sidebar img {
+  margin-right: 15px;
+}
+.sidebar h2 {
+  margin-bottom: 0;
+}
+.sidebar h3 {
+  margin-top: 0;
+}
+.post-article {
+  font-size: 18px;  
+  line-height: 1.8;
+}
+.post-article p {
+  margin-bottom: 50px;
+}
+.post-article blockquote {
+  margin-bottom: 50px;
+  font-style: italic;
+  color:#838383;
+}
+.post-article blockquote p {
+  font-size: 24px;
+}
+.features hr {
+  border-top: 1px solid #C2C2C2;
+}
+// FANCY BACKGROUNDS
+
+.jumbotron {
+  background-position: right 0px ;
+  background-repeat: no-repeat;
+}
+.blog.jumbotron {
+  background-image: url('../assets/img/bg-blog.png');
+}
+.developers.jumbotron {
+  background-image: url('../assets/img/bg-developers.png');
+}
+.about.jumbotron {
+  background-image: url('../assets/img/bg-about.png');
 }
 
 @media (max-width: 768px) { 

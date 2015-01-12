@@ -1,25 +1,20 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "osceApp launches"
 date:   2015-01-11 14:14:45
-categories: jekyll update
+categories: medical
+author: Dan Bronsema
+twitter: danbronsema
+active: blog
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+osceApp is a project started over the summer to build a little app to help with clinical examinations for students. The goal was to build the app I wish I had in the first 2 years of medical school. By making it open-source, it also hopefully represents a new way of developing medical resources for students and doctors. 
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## Nerd stuff
+The app is written in swift, the new development language by apple for iOS. Ideally both iphone and android would have open, interchangable development platforms, but this isn't the case. Platforms exist that allow for 'write once, deploy everywhere' mobile development, but they still fall short of native development. For now however, the next step is to develop an android version - so if you know of anyone who'd be interested please get in touch.  
 
-Jekyll also offers powerful support for code snippets:
+## Helping out
+Are you a gunner medical student? You can help by suggesting changes, reporting bugs, or even writing new content and examinations. If you want to make osceApp better, get in touch on twitter @danbronsema
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Perhaps you are a coding superhero? You can submit pull requests for features and bugs via the github page. You might even be able to help port the iOS (swift) version of the app to Android! Get in touch on twitter [@danbronsema](https://twitter.com/danbronsema).
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help

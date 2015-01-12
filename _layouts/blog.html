@@ -1,0 +1,38 @@
+---
+layout: default
+active: blog
+---
+
+<div class='jumbotron blog'>
+	<div class="container">
+	  <div class='row'>
+			<h1>{{ page.title }}</h1>
+		</div>
+	</div>
+</div>
+
+<div class="container blog-posts">
+  <div class='row'>
+		<div class='col-md-9'>
+				{% for post in site.posts %}
+				<div class='blog-post'>
+					<h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+					<p><span class="post-meta">Posted by {{post.author}} on {{ post.date | date: "%b %-d, %Y" }}</span></p>
+					<p> {{ post.content | strip_html | truncatewords: 50 }} </p>
+					<a class="post-link btn btn-default" href="{{ post.url | prepend: site.baseurl }}">Read {{ post.title }}</a>
+				</div>
+				<hr>
+				{% endfor %}
+		</div>
+		<div class='col-md-3 sidebar'>
+      <img class='pull-left' src="{{ site.baseurl }}/assets/img/icon-app.png" width='100' height='100'>
+			<h2>Free and open source medical resources</h2><br>
+			<p>There is so much fantastic medical information out there, but too much of it is behind paywalls, within private hospital networks, and sitting on decaying hard-drives. Expensive subscription fees only limit the access for medical students.</p>
+			<p>You can help add to the wealth of free and accessible medical resources. Join the conversation on twitter: <a href="https://twitter.com/search?q=%23FOAMed">#FOAMed</a></p>
+
+</p>
+		</div>
+
+	</div>
+</div>
+
