@@ -1,3 +1,5 @@
+![osceApp logo](https://github.com/danbronsema/osceappsite/blob/master/assets/img/icon-app.png)
+
 # osceappsite
 This is the site for osceApp.com
 
