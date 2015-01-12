@@ -1,4 +1,4 @@
-![osceApp logo](https://github.com/danbronsema/osceappsite/blob/master/assets/img/icon-app.png)
+<img src='https://github.com/danbronsema/osceappsite/blob/master/assets/img/icon-app.png'> width='200' height='200'>
 
 # osceappsite
 This is the site for osceApp.com
