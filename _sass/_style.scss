@@ -158,8 +158,10 @@ h2 {
 .features hr {
   border-top: 1px solid #C2C2C2;
 }
-// FANCY BACKGROUNDS
 
+//////////////////////
+// Jumbo Background
+//////////////////////
 .jumbotron {
   background-position: right 0px ;
   background-repeat: no-repeat;
@@ -174,13 +176,22 @@ h2 {
   background-image: url('../assets/img/bg-about.png');
 }
 
+//////////////////////
+// Mobile
+//////////////////////
+.navbar-toggle {
+  float:left;
+  margin-left: 20px;
+}
+
 @media (max-width: 768px) { 
-  
-  .hero-image  {
-    position: relative;
-    bottom: -70px;
-    left:-50px;
-    }
-
-
- }
+  .home-jumbo {
+    padding:0;
+  }
+  .hero-image {
+    position: static;
+  }
+  .container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
+    margin:0;
+  }
+}
