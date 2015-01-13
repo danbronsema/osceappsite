@@ -7,7 +7,6 @@ icon:
 ---
 <h2>Free and open source</h2>
 <img src='/assets/img/icon-app.png' class='pull-right' width='300' height='300'>
-
 osceApp is the first venture towards a collection of well-made, free and open source medical apps for students, doctors and patients. 
 
 ## Want to help out with the app?
