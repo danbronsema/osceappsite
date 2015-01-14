@@ -12,6 +12,12 @@ osceApp is a project started over the summer to build a little app to help with 
 ## Nerd stuff
 The app is written in swift, the new development language by apple for iOS. Ideally both iphone and android would have open, interchangable development platforms, but this isn't the case. Platforms exist that allow for 'write once, deploy everywhere' mobile development, but they still fall short of native development. For now however, the next step is to develop an android version - so if you know of anyone who'd be interested please get in touch.  
 
+## Roadmap
+Some of the things are planned include:<br>
+ - Desktop HTML version (this would allow all devices to use the content)<br>
+ - Greater procedure information with user-submitted imagery and videos<br>
+ - Ability to delete and add procedures to make your own checklists
+
 ## Helping out
 Are you a gunner medical student? You can help by suggesting changes, reporting bugs, or even writing new content and examinations. If you want to make osceApp better, get in touch on twitter @danbronsema
 
