@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "osceApp launches"
-date:   2015-01-11 14:14:45
+date:   2015-01-21 14:14:45
 categories: medical
 author: Dan Bronsema
 twitter: danbronsema
